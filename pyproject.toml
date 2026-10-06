@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indian-trading-charges"
+version = "0.1.0"
+description = "Exact brokerage, STT, GST, stamp duty and exchange charges for NSE and BSE trades (equity, intraday, futures, options)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Quantwala", email = "tejus.sharma10@gmail.com" }]
+keywords = ["nse", "bse", "india", "brokerage", "stt", "zerodha", "groww", "trading", "backtesting", "charges calculator", "stock market"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://quantwala.in/charges-calculator"
+Source = "https://github.com/quantwala/indian-trading-charges"
+"Backtest with these charges" = "https://quantwala.in"
+
+[project.scripts]
+indian-charges = "indian_charges.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
