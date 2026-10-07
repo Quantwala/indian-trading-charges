@@ -15,6 +15,9 @@ Equity delivery, intraday, futures and options. Zero runtime dependencies. Decim
 pip install indian-trading-charges
 ```
 
+**Start with a reproducible ledger:** [two synthetic trades, gross versus net](examples/README.md).
+The runnable example shows a ₹65 gross gain becoming a ₹0.81 net loss under the default rate model.
+
 ```python
 from indian_charges import round_trip, net_pnl, breakeven_pct
 
