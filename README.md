@@ -5,7 +5,7 @@
 [![Tests](https://github.com/Quantwala/indian-trading-charges/actions/workflows/tests.yml/badge.svg)](https://github.com/Quantwala/indian-trading-charges/actions/workflows/tests.yml)
 [![PyPI](https://img.shields.io/pypi/v/indian-trading-charges)](https://pypi.org/project/indian-trading-charges/)
 [![Python](https://img.shields.io/pypi/pyversions/indian-trading-charges)](https://pypi.org/project/indian-trading-charges/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Quantwala/indian-trading-charges/blob/main/LICENSE)
 
 **Estimate brokerage, STT, GST, stamp duty and exchange charges for NSE and BSE trades, in Python.**
 Equity delivery, intraday, futures and options. Zero runtime dependencies. Decimal arithmetic with paise rounding. Rates current to the
@@ -82,7 +82,7 @@ Also handled:
 - **Broker plans:** `zerodha` (default), `groww`, `none` (statutory only), or your own `BrokeragePlan`.
 - **Single legs** with `leg(turnover=..., side="buy" | "sell", ...)`, so a strategy's fills can be priced one by one.
 
-Every rate and its source is in [`rates.py`](src/indian_charges/rates.py). `indian_charges.EFFECTIVE_FROM` says which
+Every rate and its source is in [`rates.py`](https://github.com/Quantwala/indian-trading-charges/blob/main/src/indian_charges/rates.py). `indian_charges.EFFECTIVE_FROM` says which
 schedule you're on.
 
 ## API
@@ -125,6 +125,6 @@ included.
 
 ## Contributing and support
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, tests and rate-change requirements.
+See [CONTRIBUTING.md](https://github.com/Quantwala/indian-trading-charges/blob/main/CONTRIBUTING.md) for local setup, tests and rate-change requirements.
 [Report a bug or request a feature](https://github.com/Quantwala/indian-trading-charges/issues).
-For vulnerability reports, see [SECURITY.md](SECURITY.md).
+For vulnerability reports, see [SECURITY.md](https://github.com/Quantwala/indian-trading-charges/blob/main/SECURITY.md).

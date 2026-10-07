@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "indian-trading-charges"
-version = "0.1.0"
+version = "0.1.1"
 description = "Estimate brokerage, STT, GST, stamp duty and exchange charges for NSE and BSE trades (equity, intraday, futures, options)."
 readme = "README.md"
 license = "MIT"

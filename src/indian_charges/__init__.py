@@ -9,6 +9,6 @@ Maintained by Quantwala (https://quantwala.in), where the same engine prices eve
 from .core import Charges, breakeven_pct, exchange_rate, leg, net_pnl, round_trip
 from .rates import EFFECTIVE_FROM, PLANS, RATES, SEGMENTS, BrokeragePlan
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = ["Charges", "BrokeragePlan", "leg", "round_trip", "net_pnl", "breakeven_pct", "exchange_rate",
            "RATES", "PLANS", "SEGMENTS", "EFFECTIVE_FROM", "__version__"]
